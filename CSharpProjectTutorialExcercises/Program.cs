@@ -12,7 +12,7 @@ namespace CSharpProjectTutorialExcercises
         static void Main(string[] args)
         {
             #region [This Region Belongs to Print CSharp Output]
-            //Program.CSharpOutputPrint();
+            //kkProgram.CSharpOutputPrint();
             #endregion
             #region [This region Belongs to See CSharp Single and MultiLine Comment]
             //Program.CSharpSingleMultiLineComment();
