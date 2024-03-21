@@ -11,8 +11,13 @@ namespace CSharpProjectTutorialExcercises
     {
         static void Main(string[] args)
         {
+            /*naming conventions
+                1. camel case sLimated
+                2. pascal case Liscal
+            */
+
             #region [This Region Belongs to Print CSharp Output]
-            //Program.CSharpOutputPrint();
+            //88Program.CSharpOutputPrint();
             #endregion
             #region [This region Belongs to See CSharp Single and MultiLine Comment]
             //Program.CSharpSingleMultiLineComment();
@@ -256,6 +261,8 @@ namespace CSharpProjectTutorialExcercises
 
         private static int CSharpComparisonOperatorsPractice()
         {
+
+
             int num1 = 10;
             int num2 = 5;
             Console.WriteLine("\nRelational Operators:");
