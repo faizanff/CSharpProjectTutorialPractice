@@ -12,7 +12,7 @@ namespace CSharpProjectTutorialExcercises
         static void Main(string[] args)
         {
             #region [This Region Belongs to Print CSharp Output]
-            //kkProgram.CSharpOutputPrint();
+            //Program.CSharpOutputPrint();
             #endregion
             #region [This region Belongs to See CSharp Single and MultiLine Comment]
             //Program.CSharpSingleMultiLineComment();
@@ -66,7 +66,22 @@ namespace CSharpProjectTutorialExcercises
             //Program.CSharpIfElseStatementPractice();
             #endregion
             #region[This region Belongs to practice Switch Statement through small example]
-            Program.CSharpSwitchStatementPractice();
+            //Program.CSharpSwitchStatementPractice();
+            #endregion
+            #region[This region Belongs to practice While Loop through small example]
+            //Program.CSharpWhileLoopPractice();
+            #endregion
+            #region[This region Belongs to practice Do While Loop through small example]
+            //Program.CSharpDoWhileLoop();
+            #endregion
+            #region[This region Belongs to practice For Loop through small example]
+            //Program.CSharpForLoopPractice();
+            #endregion
+            #region[This region Belongs to practice Arrays through small example]
+            //Program.CSharpArrayPractice();
+            #endregion
+            #region[This region Belongs to practice Two Dimensional Arrays through small example]
+            Program.CSharpTwoDimensionalArrayPractice();
             #endregion
 
         }
@@ -475,5 +490,115 @@ namespace CSharpProjectTutorialExcercises
             return 1;
         }
 
+        private static int CSharpWhileLoopPractice()
+        {
+            int count = 1;
+
+            Console.WriteLine("Printing numbers from 1 to 5 using a while loop:");
+            while (count <= 5)
+            {
+                Console.WriteLine(count);
+                count++;
+            }
+
+            int sum = 0;
+            count = 1;
+            while (count <= 10)
+            {
+                sum += count;
+                count++;
+            }
+            Console.WriteLine("\nSum of numbers from 1 to 10: " + sum);
+         
+            return 1;
+        }
+
+        private static int CSharpDoWhileLoop()
+        {
+            int count = 0;
+            Console.WriteLine("Printing numbers from 1 to 5 using a while loop:");
+            do
+            {
+                Console.WriteLine(count);
+                count++;
+
+            } while (count <= 5);
+
+            int sum = 0;
+            count = 1;
+
+            do
+            {
+
+                sum += count;
+                count++;
+
+            } while (count <= 10);
+
+            Console.WriteLine("\nSum of numbers from 1 to 10: " + sum);
+            return 1;
+        }
+
+        private static int CSharpForLoopPractice()
+        {
+            Console.WriteLine("Printing numbers from 1 to 5 using a while loop:");
+            for(int i = 1; i<=5; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            int sum = 0;
+            Console.WriteLine("\nFinding sum of 1 to 10 numbers using for loop");
+
+            for(int j = 1; j <= 10; j++)
+            {
+                sum+= j;
+            }
+            Console.WriteLine("Sum of numbers from 1 to 10: " + sum);
+            return 1;
+
+        }
+        private static int CSharpArrayPractice()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5 };
+
+            Console.WriteLine("Accessing elements of the array:");
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Console.WriteLine("Element at index " + i + ": " + numbers[i]);
+            }
+
+            numbers[2] = 10;
+
+            Console.WriteLine("\nModified element at index 2: " + numbers[2]);
+
+            string[] fruits = new string[3];
+            fruits[0] = "Apple";
+            fruits[1] = "Banana";
+            fruits[2] = "Orange";
+
+            Console.WriteLine("\nAccessing elements of the string array:");
+            foreach (string fruit in fruits)
+            {
+                Console.WriteLine(fruit);
+            }
+            return 1;
+        }
+
+        private static int CSharpTwoDimensionalArrayPractice()
+        {
+            int[,] matrix = new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+
+            Console.WriteLine("Elements of the 2D array:");
+            for (int row = 0; row < 3; row++)
+            {
+                for (int col = 0; col < 3; col++)
+                {
+                    Console.Write(matrix[row, col] + "\t");
+                }
+                Console.WriteLine();
+            }
+            return 1;
+        }
     }
 }
