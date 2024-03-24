@@ -11,6 +11,8 @@ namespace CSharpProjectTutorialExcercises
     {
         static void Main(string[] args)
         {
+
+            CSharpTestQuestions myObj = new CSharpTestQuestions();
             /*naming conventions
                 1. camel case sLimated
                 2. pascal case Liscal
@@ -86,8 +88,45 @@ namespace CSharpProjectTutorialExcercises
             //Program.CSharpArrayPractice();
             #endregion
             #region[This region Belongs to practice Two Dimensional Arrays through small example]
-            Program.CSharpTwoDimensionalArrayPractice();
+            //Program.CSharpTwoDimensionalArrayPractice();
             #endregion
+
+
+            #region[This region Belongs to pratice test of Question No 01]
+            //myObj.CSharpTestQuestion01();
+            #endregion
+            #region[This region Belongs to practice test of Question No 02]
+            //myObj.CSharpTestQuestion02();
+            #endregion
+            #region[This region Belongs to practice test of Question 03]
+            //myObj.CSharpTestQuestion03();
+            #endregion
+            #region[This region Belongs to practice test of Question No 04]
+            //myObj.CSharpTestQuestion04();
+            #endregion
+            #region[This region Belongs to practice test of Question No 05]
+            //myObj.CSharpTestQuestion05();
+            #endregion
+            #region[This region Belongs to practice test of Question No 06]
+            //myObj.CSharpTestQuestion06();
+            #endregion
+            #region[This region Belongs to practice test of Question No 07]
+            //myObj.CSharpTestQuestion07();
+            #endregion
+            #region[This region Belongs to practice test of Question No 08]
+            //myObj.CSharpTestQuestion08();
+            #endregion
+            #region[This region Belongs to practice test of Question No 09]
+            //myObj.CSharpTestQuestion09();
+            #endregion
+            #region[This region Belongs to practice test of Question No 10]
+            //myObj.CSharpTestQuestion10();
+            #endregion
+            #region[This region Belongs to practice test of Question No 11]
+            myObj.CSharpTestQuestion11();
+            #endregion
+
+
 
         }
 
