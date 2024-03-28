@@ -123,7 +123,13 @@ namespace CSharpProjectTutorialExcercises
             //myObj.CSharpTestQuestion10();
             #endregion
             #region[This region Belongs to practice test of Question No 11]
-            myObj.CSharpTestQuestion11();
+            //myObj.CSharpTestQuestion11();
+            #endregion
+            #region[This region Belongs to practice test of Question No 12]
+            //myObj.CSharpTestQuestion12();
+            #endregion
+            #region[This region Belongs to practice test of Question No 13]
+            myObj.CSharpTestQuestion13();
             #endregion
 
 
